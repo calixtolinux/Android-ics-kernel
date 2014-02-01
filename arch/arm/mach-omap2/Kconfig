@@ -465,9 +465,9 @@ config CS_VGA_SUPPORT
 	 By Default EVM Support Only VGA Interface
 
 config CS_LCD4_SUPPORT
-	bool "4.7 Inch LCD Support"
+	bool "4.3 Inch LCD Support"
 	help
-	 Support for 4.7Inch LCD in Calixto-EVM.
+	 Support for 4.3Inch LCD in Calixto-EVM.
 
 config CS_LCD7_OLD_SUPPORT
        bool "7 Inch LCD Support for OLD Panels"
