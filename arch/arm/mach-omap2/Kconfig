@@ -429,12 +429,12 @@ config CS_WLAN_SUPPORT
 	 Calixto-EVM.
 
 choice
-	prompt "Calixto-EVM Interface Configure-I"
+	prompt "Calixto-EVM Interface Configure"
 	depends on CS_PHERIPHERAL_CONFIGURATION
 
 config CS_BLUETOOTH_SUPPORT
 	bool "BLUETOOTH"
-	depends on CS_WLAN_SUPPORT
+	depends on CS_WLAN_SUPPORT && CS_PHERIPHERAL_CONFIGURATION
 	help
 	Select for Enabling Blurtooth Interface.
 
@@ -443,12 +443,6 @@ config CS_CAN_SUPPORT
 	help
 	 Support for CAN0 for Calixto-EVM
 
-endchoice
-
-choice
-	prompt "Calixto-EVM Interface Configure-II"
-	depends on CS_PHERIPHERAL_CONFIGURATION
-	
 config CS_RS485_SUPPORT
 	bool "RS485"
 	help
@@ -465,9 +459,9 @@ config CS_VGA_SUPPORT
 	 By Default EVM Support Only VGA Interface
 
 config CS_LCD4_SUPPORT
-	bool "4.3 Inch LCD Support"
+	bool "4.7 Inch LCD Support"
 	help
-	 Support for 4.3Inch LCD in Calixto-EVM.
+	 Support for 4.7Inch LCD in Calixto-EVM.
 
 config CS_LCD7_OLD_SUPPORT
        bool "7 Inch LCD Support for OLD Panels"

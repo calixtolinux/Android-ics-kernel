@@ -1844,8 +1844,9 @@
 #define __enabled_CONFIG_CAIF_DEBUG_MODULE 0
 #define __enabled_CONFIG_JFFS2_COMPRESSION_OPTIONS 0
 #define __enabled_CONFIG_JFFS2_COMPRESSION_OPTIONS_MODULE 0
-#define __enabled_CONFIG_CS_LCD7_NEW_SUPPORT 0
+#define __enabled_CONFIG_CS_LCD7_NEW_SUPPORT 1
 #define __enabled_CONFIG_CS_LCD7_NEW_SUPPORT_MODULE 0
+#define CONFIG_CS_LCD7_NEW_SUPPORT 1
 #define __enabled_CONFIG_BATTERY_MAX17040 0
 #define __enabled_CONFIG_BATTERY_MAX17040_MODULE 0
 #define __enabled_CONFIG_HP_SDC_RTC 0
@@ -8281,9 +8282,8 @@
 #define __enabled_CONFIG_ARCH_S3C2410_MODULE 0
 #define __enabled_CONFIG_MTD_NAND_S3C2410_HWECC 0
 #define __enabled_CONFIG_MTD_NAND_S3C2410_HWECC_MODULE 0
-#define __enabled_CONFIG_CS_LCD4_SUPPORT 1
+#define __enabled_CONFIG_CS_LCD4_SUPPORT 0
 #define __enabled_CONFIG_CS_LCD4_SUPPORT_MODULE 0
-#define CONFIG_CS_LCD4_SUPPORT 1
 #define __enabled_CONFIG_DVB_ISL6421 0
 #define __enabled_CONFIG_DVB_ISL6421_MODULE 0
 #define __enabled_CONFIG_CRYPTO_DEV_FSL_CAAM_CRYPTO_API 0
@@ -11518,9 +11518,8 @@
 #define __enabled_CONFIG_NI5010_MODULE 0
 #define __enabled_CONFIG_GAMEPORT_NS558 0
 #define __enabled_CONFIG_GAMEPORT_NS558_MODULE 0
-#define __enabled_CONFIG_CS_CAN_SUPPORT 1
+#define __enabled_CONFIG_CS_CAN_SUPPORT 0
 #define __enabled_CONFIG_CS_CAN_SUPPORT_MODULE 0
-#define CONFIG_CS_CAN_SUPPORT 1
 #define __enabled_CONFIG_FB_S3C 0
 #define __enabled_CONFIG_FB_S3C_MODULE 0
 #define __enabled_CONFIG_VIDEO_GO7007_SAA7113 0
